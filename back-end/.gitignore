@@ -3,5 +3,5 @@
 
 
 #important files
-back-end/.env
-back-end/.package-lock.json
+.env
+.package-lock.json
