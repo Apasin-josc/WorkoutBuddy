@@ -3,5 +3,5 @@
 
 
 #important files
-/env
-/package-lock.json
+.env
+.package-lock.json

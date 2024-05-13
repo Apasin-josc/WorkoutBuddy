@@ -14,7 +14,12 @@
     load:{
         type:Number,
         required:true
-    }
+    },
+    //associating every workout with an id
+    user_id: {
+        type: String,
+        required: true
+      }
  }, {timestamps: true});
 
  module.exports = mongoose.model('Workout', workoutSchema);
